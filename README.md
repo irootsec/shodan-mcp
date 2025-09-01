@@ -5,7 +5,7 @@ Este MCP (Model Context Protocol) permite integrar las capacidades de búsqueda 
 
 ## En funcionamiento 📹
 
-![shodan MCP_v3](https://github.com/user-attachments/assets/8aab1054-3171-48b8-b429-9d7fc812c644)
+![shodan MCP (1)](https://github.com/user-attachments/assets/561e2ac6-417d-499a-88f1-220ced63b61f)
 
 
 ## 🚀 Configuración Inicial
