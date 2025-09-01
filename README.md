@@ -1,5 +1,10 @@
 # MCP Shodan - Guía de Configuración y Uso
 
+## POC 📹
+
+![shodan MCP_v3](https://github.com/user-attachments/assets/8aab1054-3171-48b8-b429-9d7fc812c644)
+
+
 ## 📋 Descripción
 Este MCP (Model Context Protocol) permite integrar las capacidades de búsqueda de Shodan directamente en aplicaciones que soporten el protocolo MCP. Shodan es un motor de búsqueda para dispositivos conectados a internet.
 
