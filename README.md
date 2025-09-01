@@ -20,6 +20,10 @@ source .venv/bin/activate
 
 # Instalar dependencias
 pip install -r requirements.txt
+
+# Adaptar archivo run_shodan_mcp.sh
+
+En `run_shodan_mcp.sh` tendremos que configurar el path absoluto hacia nuestro python del `venv` creado y el path abosuto hacia el server `shoda_mcp.py`. Con esto luego **CURSOR** se encargara de ejecutarlo solo.
 ```
 
 ### 2. Configurar la API Key de Shodan
