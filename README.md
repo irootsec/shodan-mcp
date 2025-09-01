@@ -30,7 +30,22 @@ echo 'SHODAN_KEY=TU_KEY_AQUI' > .env
 
 **Nota**: Obtén tu API key gratuita en [shodan.io](https://account.shodan.io/)
 
-### 3. Verificar la configuración
+
+### 3. Configurar mcp.json en Cursor
+
+```bash
+# En Cursor podemos hacerlo desde interfaz grafica en Settings --> MCP & Integrations --> New Server MCP o directamente añadiendolo en el archivo ubicado ~/.cursor
+# En el claim command: deberemos poner el path hacia nuestro .sh que basicamente levantara el server shodan_mcp.py
+{
+  "mcpServers": {
+    "shodan": {
+      "command": "/path/to/run_shodan_mcp.sh"
+    }
+  }
+}
+```
+
+### 4. Verificar la configuración
 ```bash
 # Lanzar manualmente para verificar que no crashea
 ./run_shodan_mcp.sh
