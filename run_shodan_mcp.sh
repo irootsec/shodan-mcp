@@ -7,4 +7,5 @@ set -euo pipefail
 # export SHODAN_KEY="$(op read op://Personal/Shodan/key)"
 # source /ruta/privada/.env
 
-exec "/Users/nicktus/Code/shodan_env/bin/python" "/Users/nicktus/Code/shodan_mcp.py"
+# es necesario apuntar al path de python de tu env creado al comienzo, y tambien ajustar el path del MCP Server.
+exec "/PATH/TO/VENV/bin/python" "/PATH/TO/MCP/shodan_mcp.py"
